@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, rgb(68, 136, 210), rgb(118, 80, 180));
+            font-family: Arial;
+        }
+        #login {
+            width: 23%;
+            height: 570px;
+            text-align: center;
+            background-color: white;
+            margin: auto;
+            padding: 40px;
+            margin-top: 5%;
+            border-radius: 15px;
+        }
+        h1 {
+            padding-top: 40px;
+            text-decoration: solid;
+            padding-bottom: 20px;
+        }
+        #content {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        #content > div > input {
+            border: none;
+            color: rgb(180, 180, 180);
+            padding-left: 10px;
+            padding-right: 30%;
+            padding-top: 20px;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            font-size: larger;
+            border-bottom: 4px solid rgb(180, 180, 180);
+        }
+        .action > button {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 43%;
+            padding-right: 44%;
+            background-image: linear-gradient(to right, rgb(68, 136, 210), rgb(118, 80, 180));
+            border: none;
+            font-size: larger;
+            color: white;
+        }
+        #footer {
+            justify-content: baseline;
+        }
+        #password {
+            justify-content: center;
+            padding-top: 40px;
+            padding-bottom: 40PX;
+        }
+    </style>
+</head>
+<body>
+    <div id="web">
+        <div id="login">
+                <form>
+                    <h1>Login</h1>
+                    <div id="content">
+                        <div>
+                        <input type="email" placeholder="Email" />
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Password" />
+                        </div>
+                    </div>
+                    <div class="action">
+                        <button>Login</button> 
+                    </div>
+                </form>
+                <div id="footer">
+                    <div id="password">
+                        <p>Forget <a style="color: blue;">Password?</a></p>
+                        <p>Dont't have an account? <a style="color: blue;">Sign up</a></p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
