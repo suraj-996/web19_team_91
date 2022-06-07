@@ -32,16 +32,21 @@
       justify-content: flex-end;
       width: 50%;
   }
-   #right>p{
-       margin: 13px 30px 13px 30px;
+   #right>a p{
+       margin: 22px 30px 22px 30px;
        display: flex;
        align-items:center;
+       justify-content: center;
    }
    .btn{
        margin: 13px 30px 13px 30px;
        background-color: #1c2938;
        color: white;
        border: 0px;
+   }
+   a{
+       text-decoration: none;
+       color: white;
    }
     </style>
 </head>
@@ -53,10 +58,15 @@
         </div>
         <div id="right">
          <!-- for right side logo -->
-         <p>Men</p>
-         <p>Women</p>
-         <button class="btn">Login</button>
-         <button class="btn">Signup</button>
+         <a href="mens.html"><p>Men</p></a>
+         
+         <a href="#"><p>Women</p></a>
+         <a href="login.html"><button class="btn">Login</a>
+         </button>
+         <a href="signup.html">
+            <button class="btn">Signup
+         </a>
+         </button>
         </div>
     </div>
 </body>
